@@ -8,7 +8,7 @@ using .WaveletExpansion
 
 f(x) = x^2 # function to approximate 
 
-wavelet_family = generate_wavelet_family(σ, 1) # generate wavelets (not orthonormal)
+wavelet_family = generate_wavelet_family(σ, 2) # generate wavelets (not orthonormal)
 
 wavelets_orthonormal = gram_schmidt(wavelet_family) # orthonormalize wavelets
 

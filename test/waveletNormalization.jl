@@ -20,6 +20,8 @@ using Plots
 # println(inner_product(testWavelet, test2Wavelet))
 # println(inner_product(test2Wavelet, testWavelet))
 
+# ⟨ ⟩
+
 A = get_scalar(σ)
 
 testWavelet = Hjk_v2(0, 0, σ, A)

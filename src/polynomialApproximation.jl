@@ -7,8 +7,8 @@ function generate_wavelet_family(σ::Float64, n::Int)
 
     A = 1.0 # scalar is broken so just set to 1
 
-    for j ∈ -n:n
-        for k ∈ -n:n
+    for j ∈ -1:n
+        for k ∈ -1:n
             push!(wavelets, Hjk_v2(j, k, σ, A)) # add wavelet to vector
         end # for 
     end # for 
